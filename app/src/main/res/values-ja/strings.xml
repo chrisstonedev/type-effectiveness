@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="normal">ノーマル</string>
+    <string name="ghost">ゴースト</string>
+    <string name="psychic">エスパー</string>
+    <string name="dragon">ドラゴン</string>
+    <string name="fairy">フェアリー</string>
+    <string name="bug">むし</string>
+    <string name="electric">でんき</string>
+    <string name="fighting">かくとう</string>
+    <string name="flying">ひこう</string>
+    <string name="steel">はがね</string>
+    <string name="ice">こおり</string>
+    <string name="poison">どく</string>
+    <string name="fire">ほのお</string>
+    <string name="ground">じめん</string>
+    <string name="water">みず</string>
+    <string name="dark">あく</string>
+    <string name="rock">いわ</string>
+    <string name="grass">くさ</string>
+</resources>

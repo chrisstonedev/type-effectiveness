@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_a_type" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/buttonNormal"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorNormal"
+                android:onClick="typeClick"
+                android:tag="Normal"
+                android:text="@string/normal"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonFighting"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorFighting"
+                android:onClick="typeClick"
+                android:tag="Fighting"
+                android:text="@string/fighting"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonFlying"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorFlying"
+                android:onClick="typeClick"
+                android:tag="Flying"
+                android:text="@string/flying"
+                android:textColor="@color/colorWhite" />
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/buttonPoison"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPoison"
+                android:onClick="typeClick"
+                android:tag="Poison"
+                android:text="@string/poison"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonGround"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGround"
+                android:onClick="typeClick"
+                android:tag="Ground"
+                android:text="@string/ground"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonRock"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorRock"
+                android:onClick="typeClick"
+                android:tag="Rock"
+                android:text="@string/rock"
+                android:textColor="@color/colorWhite" />
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/buttonBug"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBug"
+                android:onClick="typeClick"
+                android:tag="Bug"
+                android:text="@string/bug"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonGhost"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGhost"
+                android:onClick="typeClick"
+                android:tag="Ghost"
+                android:text="@string/ghost"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonSteel"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorSteel"
+                android:onClick="typeClick"
+                android:tag="Steel"
+                android:text="@string/steel"
+                android:textColor="@color/colorWhite" />
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/buttonFire"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorFire"
+                android:onClick="typeClick"
+                android:tag="Fire"
+                android:text="@string/fire"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonWater"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWater"
+                android:onClick="typeClick"
+                android:tag="Water"
+                android:text="@string/water"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonGrass"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrass"
+                android:onClick="typeClick"
+                android:tag="Grass"
+                android:text="@string/grass"
+                android:textColor="@color/colorWhite" />
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/buttonElectric"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorElectric"
+                android:onClick="typeClick"
+                android:tag="Electric"
+                android:text="@string/electric"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonPsychic"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPsychic"
+                android:onClick="typeClick"
+                android:tag="Psychic"
+                android:text="@string/psychic"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonIce"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorIce"
+                android:onClick="typeClick"
+                android:tag="Ice"
+                android:text="@string/ice"
+                android:textColor="@color/colorWhite" />
+        </TableRow>
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonDragon"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorDragon"
+                android:onClick="typeClick"
+                android:tag="Dragon"
+                android:text="@string/dragon"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonDark"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorDark"
+                android:onClick="typeClick"
+                android:tag="Dark"
+                android:text="@string/dark"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/buttonFairy"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorFairy"
+                android:onClick="typeClick"
+                android:tag="Fairy"
+                android:text="@string/fairy"
+                android:textColor="@color/colorWhite" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
