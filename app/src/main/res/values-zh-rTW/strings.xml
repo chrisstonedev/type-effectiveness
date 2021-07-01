@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fighting">格鬥</string>
+    <string name="flying">飛行</string>
+    <string name="water">水</string>
+    <string name="poison">毒</string>
+    <string name="electric">電</string>
+    <string name="bug">蟲</string>
+    <string name="dragon">龍</string>
+    <string name="ghost">幽靈</string>
+    <string name="dark">惡</string>
+    <string name="steel">鋼</string>
+</resources>

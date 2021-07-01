@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fighting">格斗</string>
+    <string name="normal">一般</string>
+    <string name="ice">冰</string>
+    <string name="flying">飞行</string>
+    <string name="fire">火</string>
+    <string name="water">水</string>
+    <string name="grass">草</string>
+    <string name="poison">毒</string>
+    <string name="electric">电</string>
+    <string name="ground">地面</string>
+    <string name="psychic">超能力</string>
+    <string name="rock">岩石</string>
+    <string name="bug">虫</string>
+    <string name="dragon">龙</string>
+    <string name="ghost">幽灵</string>
+    <string name="dark">恶</string>
+    <string name="steel">钢</string>
+    <string name="fairy">妖精</string>
+</resources>

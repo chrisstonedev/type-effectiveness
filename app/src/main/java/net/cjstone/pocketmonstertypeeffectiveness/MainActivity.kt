@@ -1,9 +1,10 @@
 package net.cjstone.pocketmonstertypeeffectiveness
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,5 +18,9 @@ class MainActivity : AppCompatActivity() {
         // Do something in response to button click
         val t = view.tag.toString()
         Toast.makeText(this, t, Toast.LENGTH_SHORT).show()
+
+        val intent = Intent(this@MainActivity, EffectivenessActivity::class.java)
+        intent.putExtra("type", t)
+        startActivity(intent)
     }
 }
